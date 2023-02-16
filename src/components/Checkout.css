@@ -1,0 +1,65 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__list {
+  border: 1px solid black;
+  margin: 0px 40px 50px 40px;
+  padding: 15px 15px 15px 15px;
+}
+
+.checkout__logo {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 60px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.checkout__pageTitle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.checkout__confirm {
+  padding: 20px 10px 20px 10px;
+}
+.checkout__totalAmount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.checkout__confirmBtnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout__confirmBtn {
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+  background-image: linear-gradient(to bottom, #ffc226, #ffd774);
+}
+
+@media only screen and (max-width: 450px) {
+  .product__checkoutPrice {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    font-size: large;
+    padding: 20px;
+  }
+}
