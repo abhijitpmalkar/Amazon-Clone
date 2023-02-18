@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "homepage": "https://pranavbhagwat.com/amazon-clone",
+  "homepage": "https://www.abhijitpmalkar.tech/amazon-clone",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
